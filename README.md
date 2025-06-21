@@ -22,6 +22,9 @@ LetterGen is a full-stack web application that enables users to automatically ge
 4. Click “Generate” → get an AI-generated letter.
 5. Option to download the letter as a PDF.
 
+## 🚀 Deployment Links
+[![Vercel](https://vercelbadge.vercel.app/api/aakritisukumar/LetterGen)](https://letter-gen-neon.vercel.app/home)
+
 ## Screenshots
 
  1. Sign Up Page
