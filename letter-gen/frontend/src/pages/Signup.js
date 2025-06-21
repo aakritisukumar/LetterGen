@@ -33,7 +33,7 @@ function Signup() {
             return handleError('name, email and password are required')
         }
         try {
-            const url = `http://localhost:5000/api/auth/register`;
+            const url = `https://lettergen-8agl.onrender.com/api/auth/register`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
