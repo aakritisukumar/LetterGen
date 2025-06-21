@@ -4,12 +4,13 @@ LetterGen is a full-stack web application that enables users to automatically ge
 
 ## 🚀 Features
 - 🔐 User Authentication with JWT
-- 🧠 AI-powered letter generation (via API)
+- 🧠 AI-powered letter generation (via Hugging Face API)
 - 🎯 Supports multiple letter types and tones
 - 📄 Download letters as PDF using `jsPDF` and `html2canvas`
 - 🎨 Responsive UI using React
 - 📦 MongoDB Integration for user and letter storage
-
+- 🌐 **Deployed** on Vercel & Render
+  
 - **Frontend**: React
 - **Backend**: Node.js, Express.js
 - **Authentication**: JWT-based login system
@@ -19,7 +20,7 @@ LetterGen is a full-stack web application that enables users to automatically ge
 1. Users sign in using their credentials.
 2. Fill in the form with sender/recipient info, select letter type and tone.
 3. Add description for letter context.
-4. Click “Generate” → get an AI-generated letter.
+4. Click “Generate” → get an AI-crafted letter.
 5. Option to download the letter as a PDF.
 
 ## 🚀 Deployment Links
@@ -40,4 +41,12 @@ LetterGen is a full-stack web application that enables users to automatically ge
 ![Screenshot 2025-06-21 020913](https://github.com/user-attachments/assets/e7fb1138-3a2e-4478-9bb3-9aedfd893462)
 
 
+## 🔐 Environment Variables (Sample)
+
+Add the following `.env` in your backend (not pushed to GitHub):
+
+```env
+MONGO_URI=your_mongodb_connection_string
+HF_API_KEY=your_huggingface_token
+JWT_SECRET=your_jwt_secret
 
