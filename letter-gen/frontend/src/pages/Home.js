@@ -57,7 +57,7 @@ function Home() {
 
 
     try {
-      const url = "http://localhost:5000/api/letter/generate";
+      const url = "https://lettergen-8agl.onrender.com/api/letter/generate";
       const response = await fetch(url, {
         method: 'POST',
         headers: {
